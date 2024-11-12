@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'font-1';
+  src: url('./assets/fonts/pixelOperator.ttf') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'font-2';
+  src: url('./assets/fonts/pixelEmulator.otf') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'font-1';
+}
+
+::-webkit-scrollbar {
+  width: 25px;
+  height: 25px;
+}
+
+::-webkit-scrollbar-track {
+  background: linear-gradient(0deg, #443e8b, #723c89);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #443e8b, #723c89);
+  border: 4px solid #fff;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6860b9;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #474280;
+}
